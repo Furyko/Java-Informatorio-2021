@@ -15,7 +15,6 @@ public class Ejercicio3 {
         cartas.add(9);
         cartas.add(10);
         System.out.println(cartas);
-
         ordenInverso(cartas);
         ordenAleatorio(cartas);
     }

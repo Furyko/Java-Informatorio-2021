@@ -8,7 +8,6 @@ public class Ejercicio1{
         ciudades.add("Saenz Peña");
         ciudades.add("Tandil");
         ciudades.add("San Luis");
-
         ranking(ciudades);
     }
 

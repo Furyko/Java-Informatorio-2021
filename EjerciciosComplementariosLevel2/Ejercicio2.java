@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Ejercicio2 {
+    
     public static void main(String[] args) {
         ArrayList<Integer> numeros = new ArrayList<Integer>();
         numeros.add(12);
@@ -8,7 +9,6 @@ public class Ejercicio2 {
         numeros.add(23);
         numeros.add(90);
         numeros.add(8);
-
         System.out.println("===========================");
         System.out.println("Lista antes de los cambios:");
         System.out.println("===========================");

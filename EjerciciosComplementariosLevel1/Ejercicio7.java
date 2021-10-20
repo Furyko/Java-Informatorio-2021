@@ -8,14 +8,12 @@ public class Ejercicio7 {
         String texto = scan.nextLine();
         scan.close();
         String textoEnMayusulas = convertirTextoEnMayusculas(texto);
-
         System.out.println(textoEnMayusulas);
     }
 
     static String convertirTextoEnMayusculas(String txt) {
         String textoEnMayusculasFinal = "";
         char[] textoEnCaracteres = txt.toCharArray();
-
         for (int i=0; i<textoEnCaracteres.length; i++){
             char caracter = textoEnCaracteres[i];
             String letra = convertirLetraEnMayuscula(caracter);
@@ -26,7 +24,6 @@ public class Ejercicio7 {
 
     static String convertirLetraEnMayuscula(char caracter) {
         String letra = "";
-
         switch(caracter) {
             case 'a':
                 letra = "A";
@@ -113,7 +110,6 @@ public class Ejercicio7 {
                 String letraEnString = String.valueOf(caracter);
                 letra = letraEnString;
         }
-
         return letra;
     }
 }

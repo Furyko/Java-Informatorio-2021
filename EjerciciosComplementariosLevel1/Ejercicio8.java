@@ -13,9 +13,7 @@ public class Ejercicio8 {
         String direccion = scan.nextLine();
         System.out.println("Ciudad:");
         String ciudad = scan.nextLine();
-        
         scan.close();
-
         System.out.println(ciudad + " - " + direccion + " - " + edad + " - " + nombreYApellido);
     }
 }

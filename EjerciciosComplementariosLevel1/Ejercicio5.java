@@ -9,7 +9,6 @@ public class Ejercicio5 {
         System.out.println("Introduzca otro numero:");
         int num2 = scan.nextInt();
         scan.close();
-
         int resultado = multiplicacion(num1, num2);
         System.out.println(num1 + " x " + num2 + " = " + resultado);
     }
