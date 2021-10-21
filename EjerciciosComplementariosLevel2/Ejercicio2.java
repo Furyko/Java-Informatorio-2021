@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Ejercicio2 {
-    
+
     public static void main(String[] args) {
         ArrayList<Integer> numeros = new ArrayList<Integer>();
         numeros.add(12);
@@ -16,7 +16,7 @@ public class Ejercicio2 {
         agregarNumeros(numeros);
     }
 
-    static void agregarNumeros(ArrayList<Integer> list) {
+    public static void agregarNumeros(ArrayList<Integer> list) {
         list.add(0, 4321);
         list.add(1234);
         System.out.println("=============================");
@@ -25,7 +25,7 @@ public class Ejercicio2 {
         iterarEImprimirLista(list);
     }
 
-    static void iterarEImprimirLista(ArrayList<Integer> list) {
+    public static void iterarEImprimirLista(ArrayList<Integer> list) {
         int tamanio = 0;
         System.out.println("Elementos de la lista:");
         for (Integer i : list) {

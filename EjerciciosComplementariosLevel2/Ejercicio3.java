@@ -19,12 +19,12 @@ public class Ejercicio3 {
         ordenAleatorio(cartas);
     }
 
-    static void ordenInverso(ArrayList<Integer> list) {
+    public static void ordenInverso(ArrayList<Integer> list) {
         Collections.sort(list, Collections.reverseOrder());
         System.out.println(list);
     }
 
-    static void ordenAleatorio(ArrayList<Integer> list) {
+    public static void ordenAleatorio(ArrayList<Integer> list) {
         Collections.shuffle(list);
         System.out.println(list);
     }

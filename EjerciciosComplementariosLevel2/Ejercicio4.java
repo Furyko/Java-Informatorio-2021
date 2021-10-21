@@ -20,7 +20,7 @@ public class Ejercicio4 {
         separarEstudiantes(estudiantes);
     }
 
-    static void separarEstudiantes(ArrayList<String> estudiantes) {
+    public static void separarEstudiantes(ArrayList<String> estudiantes) {
         int tamañoLista = estudiantes.size();
         int division = tamañoLista / 3;
         List<String> curso1 = estudiantes.subList(0, division);

@@ -11,7 +11,7 @@ public class Ejercicio1{
         ranking(ciudades);
     }
 
-    static void ranking(ArrayList<String> list) {
+    public static void ranking(ArrayList<String> list) {
         int posicion = 1;
         for (String i : list) {
             System.out.println("#" + posicion + " - " + i);
