@@ -1,3 +1,7 @@
+/*
+Se dispone de una lista de Integer, de la cual queremos obtener otra lista
+aplicando la operación de factorial pero no se desean valores repetidos.
+*/
 import java.util.List;
 import java.util.stream.Collectors;
 

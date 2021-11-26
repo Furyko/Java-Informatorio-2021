@@ -1,3 +1,9 @@
+/*
+Se dispone de una lista de Strings, de la cual saber la cantidad de valores que
+comiencen con la letra B (tanto mayúscula como minúscula, en ese caso
+decimos que será ignoreCase).
+*/
+
 import java.util.List;
 import java.util.stream.Collectors;
 
