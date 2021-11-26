@@ -12,10 +12,10 @@ public class Ejercicio4 {
     }
 
     public static Integer factorial(int numero) {
-        int primerNumero = 1;
+        int iFactorial = 1;
         for (int i=2; i<=numero; i++) {
-            primerNumero = primerNumero * i;
+            iFactorial = iFactorial * i;
         }
-        return primerNumero;
+        return iFactorial;
     }
 }
