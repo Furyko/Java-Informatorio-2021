@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Ejercicio9{
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Introduzca algún tipo de texto (frase, texto, etc):");
