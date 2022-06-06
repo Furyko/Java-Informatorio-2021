@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class Ejercicio5 {
-    
     public static void main(String[] args) {
         ArrayList<Integer> horas_trabajadas = new ArrayList<Integer>();
         ArrayList<Integer> valor_por_hora = new ArrayList<Integer>();

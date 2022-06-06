@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ejercicio7 {
-    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Introduzca un numero:");

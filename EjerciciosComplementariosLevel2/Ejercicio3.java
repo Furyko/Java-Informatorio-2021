@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Ejercicio3 {
-    
     public static void main(String[] args) {
         ArrayList<Integer> cartas = new ArrayList<Integer>();
         cartas.add(2);

@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ejercicio4 {
-    
     public static void main(String[] args) {
         ArrayList<String> estudiantes = new ArrayList<String>();
         estudiantes.add("Benjamin Lopez");

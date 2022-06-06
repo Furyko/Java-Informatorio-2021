@@ -4,7 +4,6 @@ import java.util.Map;
 import java.util.Set;
 
 public class Ejercicio6 {
-    
     public static void main(String[] args) {
         Set<EmpleadoEjercicio6> empleados = new HashSet<>();
         Map<Integer, Integer> sueldoPorEmpleado = new HashMap<>();
